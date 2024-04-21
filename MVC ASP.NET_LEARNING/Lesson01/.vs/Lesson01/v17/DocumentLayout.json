@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Lesson01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{48D742E7-D1DF-4727-9DBF-995CF84C2BA4}|Lesson01.csproj|D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Lesson01\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48D742E7-D1DF-4727-9DBF-995CF84C2BA4}|Lesson01.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48D742E7-D1DF-4727-9DBF-995CF84C2BA4}|Lesson01.csproj|D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Lesson01\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48D742E7-D1DF-4727-9DBF-995CF84C2BA4}|Lesson01.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48D742E7-D1DF-4727-9DBF-995CF84C2BA4}|Lesson01.csproj|D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Lesson01\\views\\home\\viewobj.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48D742E7-D1DF-4727-9DBF-995CF84C2BA4}|Lesson01.csproj|solutionrelative:views\\home\\viewobj.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48D742E7-D1DF-4727-9DBF-995CF84C2BA4}|Lesson01.csproj|d:\\hoctap\\k22cnt4_dtl_asp.net_mvc5\\mvc asp.net_learning\\lesson01\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{48D742E7-D1DF-4727-9DBF-995CF84C2BA4}|Lesson01.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48D742E7-D1DF-4727-9DBF-995CF84C2BA4}|Lesson01.csproj|d:\\hoctap\\k22cnt4_dtl_asp.net_mvc5\\mvc asp.net_learning\\lesson01\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{48D742E7-D1DF-4727-9DBF-995CF84C2BA4}|Lesson01.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48D742E7-D1DF-4727-9DBF-995CF84C2BA4}|Lesson01.csproj|d:\\hoctap\\k22cnt4_dtl_asp.net_mvc5\\mvc asp.net_learning\\lesson01\\lesson01.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{48D742E7-D1DF-4727-9DBF-995CF84C2BA4}|Lesson01.csproj|solutionrelative:lesson01.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "site.css",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Lesson01\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Lesson01\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-04-20T04:02:02.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Lesson01",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Lesson01\\Lesson01.csproj",
+              "RelativeDocumentMoniker": "Lesson01.csproj",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Lesson01\\Lesson01.csproj",
+              "RelativeToolTip": "Lesson01.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-20T04:01:58.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Lesson01\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Lesson01\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAYAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T02:40:23.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ViewObj.cshtml",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Lesson01\\Views\\Home\\ViewObj.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\ViewObj.cshtml",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Lesson01\\Views\\Home\\ViewObj.cshtml",
+              "RelativeToolTip": "Views\\Home\\ViewObj.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T02:36:37.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Lesson01\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Lesson01\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-20T02:26:53.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Lesson01\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Lesson01\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAwwBsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T02:26:09.201Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
