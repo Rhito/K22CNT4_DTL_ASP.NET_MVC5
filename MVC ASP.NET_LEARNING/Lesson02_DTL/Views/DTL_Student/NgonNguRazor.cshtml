@@ -1,0 +1,55 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "Ngôn ngữ Razor";
+
+}
+<h2>Ngôn ngữ Razor</h2>
+<h3>Biến</h3>
+@{
+    var fullName = "Đinh Tiến Lực";
+    var age = 20;
+    DateTime dt = DateTime.Now;
+}
+<p>Họ tên: @fullName</p>
+<p>Tuổi: @age</p>
+<p>Time: @dt</p>
+<hr />
+<h3>Câu lệnh If</h3>
+@{
+    if(age > 40)
+    {
+        {
+            <p>Tuổi: @age => Già rồi</p>
+        }
+    }else
+    {
+        {
+            <p>còn trẻ</p>
+        }
+    }
+}
+<hr/>
+<h3>Loop: For, while, do__while, foreach...</h3>
+@{
+    int num = 10;
+    for (int i = 0; i< num; i++)
+    {
+        <li>@i => @i * @i</li>
+    }
+}
+<hr />
+<h3>Mảng</h3>
+@{
+    string[] names = { "Trần Văn A", "Nguyễn Thị B", "Lê Đại C", "Trịnh Lê D" }; 
+}
+@foreach(var item in names)
+{
+    <p>@item</p>
+}
+<hr />
+@foreach (var item in ViewBag.names)
+{
+    <p>@item</p>
+}
