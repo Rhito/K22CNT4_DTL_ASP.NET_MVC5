@@ -1,0 +1,27 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "Thêm sinh viên mới";
+}
+<h2>Thêm sinh viên mới</h2>
+<hr/>
+@using (Html.BeginForm()){
+    <div>
+        @Html.Label("Họ tên"):
+        @Html.TextBox("fullName")
+    </div>
+    <div>
+        @Html.Label("Mã số"):
+        @Html.TextBox("maSV")
+    </div> 
+    <div>
+        @Html.Label("Tài khoản"):
+        @Html.TextBox("taiKhoan","",new {@class="pd-3"})
+    </div>
+    <div>
+        @Html.Label("Mật khẩu"):
+        @Html.TextBox("password", null, new { type = "password" })
+    </div>
+    <button>Submit</button>
+}

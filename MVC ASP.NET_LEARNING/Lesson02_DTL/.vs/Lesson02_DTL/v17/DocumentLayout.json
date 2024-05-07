@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Lesson02_DTL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{04167CD5-831E-402C-BC98-055B5D42CCF0}|Lesson02_DTL.csproj|D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Lesson02_DTL\\controllers\\dtl_studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04167CD5-831E-402C-BC98-055B5D42CCF0}|Lesson02_DTL.csproj|solutionrelative:controllers\\dtl_studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04167CD5-831E-402C-BC98-055B5D42CCF0}|Lesson02_DTL.csproj|d:\\hoctap\\k22cnt4_dtl_asp.net_mvc5\\mvc asp.net_learning\\lesson02_dtl\\views\\dtl_student\\ketqua.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04167CD5-831E-402C-BC98-055B5D42CCF0}|Lesson02_DTL.csproj|solutionrelative:views\\dtl_student\\ketqua.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04167CD5-831E-402C-BC98-055B5D42CCF0}|Lesson02_DTL.csproj|d:\\hoctap\\k22cnt4_dtl_asp.net_mvc5\\mvc asp.net_learning\\lesson02_dtl\\views\\dtl_student\\addnewstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04167CD5-831E-402C-BC98-055B5D42CCF0}|Lesson02_DTL.csproj|solutionrelative:views\\dtl_student\\addnewstudent.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04167CD5-831E-402C-BC98-055B5D42CCF0}|Lesson02_DTL.csproj|D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Lesson02_DTL\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{04167CD5-831E-402C-BC98-055B5D42CCF0}|Lesson02_DTL.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KetQua.cshtml",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Lesson02_DTL\\Views\\DTL_Student\\KetQua.cshtml",
+              "RelativeDocumentMoniker": "Views\\DTL_Student\\KetQua.cshtml",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Lesson02_DTL\\Views\\DTL_Student\\KetQua.cshtml",
+              "RelativeToolTip": "Views\\DTL_Student\\KetQua.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T14:23:28.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddNewStudent.cshtml",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Lesson02_DTL\\Views\\DTL_Student\\AddNewStudent.cshtml",
+              "RelativeDocumentMoniker": "Views\\DTL_Student\\AddNewStudent.cshtml",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Lesson02_DTL\\Views\\DTL_Student\\AddNewStudent.cshtml",
+              "RelativeToolTip": "Views\\DTL_Student\\AddNewStudent.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T13:32:44.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Lesson02_DTL\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Lesson02_DTL\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACUAAAB2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-07T11:25:43.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DTL_StudentController.cs",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Lesson02_DTL\\Controllers\\DTL_StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DTL_StudentController.cs",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Lesson02_DTL\\Controllers\\DTL_StudentController.cs",
+              "RelativeToolTip": "Controllers\\DTL_StudentController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAADwvzUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T10:40:50.892Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
