@@ -1,0 +1,13 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "Phát Nhạc";
+    string fileName = ViewBag.Name + ".mp3";
+}
+
+
+<h3>Bài hát @ViewBag.Name</h3>
+<audio controls>
+    <source src="@Url.Content("~/Content/" + fileName)" type="audio/mpeg">
+</audio>

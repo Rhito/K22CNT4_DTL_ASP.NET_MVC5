@@ -20,9 +20,6 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapControllerRoute(
-        name: "default",
-        pattern: "{controller=Home}/{action=Index}/{id?}");
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllerRoute(
@@ -45,7 +42,9 @@ app.UseEndpoints(endpoints =>
         pattern: "San-Pham/{productName}/{productId}",
         defaults: new { controller = "DtlProduct", action = "DtlDetailsProduct", productName = (string)null ,productId = @"\d{1,4}" });
 
-
+    endpoints.MapControllerRoute(
+        name: "default",
+        pattern: "{controller=Home}/{action=Index}/{id?}");
 });
 
 app.Run();

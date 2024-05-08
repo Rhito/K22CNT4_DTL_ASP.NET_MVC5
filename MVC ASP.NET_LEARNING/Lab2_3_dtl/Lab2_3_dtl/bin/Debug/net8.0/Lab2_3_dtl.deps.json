@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Lab2_3_dtl/1.0.0": {
+        "runtime": {
+          "Lab2_3_dtl.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lab2_3_dtl/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
