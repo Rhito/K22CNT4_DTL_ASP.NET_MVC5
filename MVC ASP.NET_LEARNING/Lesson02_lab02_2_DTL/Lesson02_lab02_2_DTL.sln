@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson02_lab02_2_DTL", "Lesson02_lab02_2_DTL\Lesson02_lab02_2_DTL.csproj", "{EDC30BBE-5418-43DA-9F36-E75804F59C5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDC30BBE-5418-43DA-9F36-E75804F59C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDC30BBE-5418-43DA-9F36-E75804F59C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDC30BBE-5418-43DA-9F36-E75804F59C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDC30BBE-5418-43DA-9F36-E75804F59C5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7626C92B-FFDC-4A90-91D8-FEF04AB04D10}
+	EndGlobalSection
+EndGlobal

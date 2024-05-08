@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Lab02_DTL.props" />
+</Project>
