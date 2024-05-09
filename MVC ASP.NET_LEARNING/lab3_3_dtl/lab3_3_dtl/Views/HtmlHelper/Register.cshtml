@@ -1,0 +1,42 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewBag.Title = "SubmitForm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Thông tin đăng ký</h2>
+<table class="table table-bordered">
+    <tr>
+        <td>UserName :</td>
+        <td>@TempData["UName"]</td>
+    </tr>
+    <tr>
+        <td>Password :</td>
+        <td>@TempData["Pass"]</td>
+    </tr>
+    <tr>
+        <td>Full Name :</td>
+        <td>@TempData["FName"]</td>
+    </tr>
+    <tr>
+        <td>Gender :</td>
+        <td>@TempData["Gender"]</td>
+    </tr>
+    <tr>
+        <td>Address :</td>
+        <td>@TempData["Address"]</td>
+    </tr>
+    <tr>
+        <td>Email :</td>
+        <td>@TempData["Email"]</td>
+    </tr>
+    <tr>
+        <td>Country :</td>
+        <td>@TempData["Country"]</td>
+    </tr>
+    <tr>
+        <td>Favourist :</td>
+        <td>@TempData["Favourist"]</td>
+    </tr>
+</table>

@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\lab3_3_dtl\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C3E12D50-E682-4244-BFAE-BEF060F842FD}|lab3_3_dtl\\lab3_3_dtl.csproj|d:\\hoctap\\k22cnt4_dtl_asp.net_mvc5\\mvc asp.net_learning\\lab3_3_dtl\\lab3_3_dtl\\views\\htmlhelper\\formregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3E12D50-E682-4244-BFAE-BEF060F842FD}|lab3_3_dtl\\lab3_3_dtl.csproj|solutionrelative:lab3_3_dtl\\views\\htmlhelper\\formregister.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3E12D50-E682-4244-BFAE-BEF060F842FD}|lab3_3_dtl\\lab3_3_dtl.csproj|D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\lab3_3_dtl\\lab3_3_dtl\\controllers\\htmlhelpercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3E12D50-E682-4244-BFAE-BEF060F842FD}|lab3_3_dtl\\lab3_3_dtl.csproj|solutionrelative:lab3_3_dtl\\controllers\\htmlhelpercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3E12D50-E682-4244-BFAE-BEF060F842FD}|lab3_3_dtl\\lab3_3_dtl.csproj|D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\lab3_3_dtl\\lab3_3_dtl\\views\\htmlhelper\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3E12D50-E682-4244-BFAE-BEF060F842FD}|lab3_3_dtl\\lab3_3_dtl.csproj|solutionrelative:lab3_3_dtl\\views\\htmlhelper\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3E12D50-E682-4244-BFAE-BEF060F842FD}|lab3_3_dtl\\lab3_3_dtl.csproj|D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\lab3_3_dtl\\lab3_3_dtl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C3E12D50-E682-4244-BFAE-BEF060F842FD}|lab3_3_dtl\\lab3_3_dtl.csproj|solutionrelative:lab3_3_dtl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C3E12D50-E682-4244-BFAE-BEF060F842FD}|lab3_3_dtl\\lab3_3_dtl.csproj|D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\lab3_3_dtl\\lab3_3_dtl\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C3E12D50-E682-4244-BFAE-BEF060F842FD}|lab3_3_dtl\\lab3_3_dtl.csproj|solutionrelative:lab3_3_dtl\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\lab3_3_dtl\\lab3_3_dtl\\Views\\HtmlHelper\\Register.cshtml",
+              "RelativeDocumentMoniker": "lab3_3_dtl\\Views\\HtmlHelper\\Register.cshtml",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\lab3_3_dtl\\lab3_3_dtl\\Views\\HtmlHelper\\Register.cshtml",
+              "RelativeToolTip": "lab3_3_dtl\\Views\\HtmlHelper\\Register.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T05:32:24.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HtmlHelperController.cs",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\lab3_3_dtl\\lab3_3_dtl\\Controllers\\HtmlHelperController.cs",
+              "RelativeDocumentMoniker": "lab3_3_dtl\\Controllers\\HtmlHelperController.cs",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\lab3_3_dtl\\lab3_3_dtl\\Controllers\\HtmlHelperController.cs",
+              "RelativeToolTip": "lab3_3_dtl\\Controllers\\HtmlHelperController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAACMAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T04:14:43.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormRegister.cshtml",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\lab3_3_dtl\\lab3_3_dtl\\Views\\HtmlHelper\\FormRegister.cshtml",
+              "RelativeDocumentMoniker": "lab3_3_dtl\\Views\\HtmlHelper\\FormRegister.cshtml",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\lab3_3_dtl\\lab3_3_dtl\\Views\\HtmlHelper\\FormRegister.cshtml",
+              "RelativeToolTip": "lab3_3_dtl\\Views\\HtmlHelper\\FormRegister.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T05:29:19.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\lab3_3_dtl\\lab3_3_dtl\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "lab3_3_dtl\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\lab3_3_dtl\\lab3_3_dtl\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "lab3_3_dtl\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T05:34:42.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Country.cs",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\lab3_3_dtl\\lab3_3_dtl\\Models\\Country.cs",
+              "RelativeDocumentMoniker": "lab3_3_dtl\\Models\\Country.cs",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\lab3_3_dtl\\lab3_3_dtl\\Models\\Country.cs",
+              "RelativeToolTip": "lab3_3_dtl\\Models\\Country.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T04:13:58.653Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

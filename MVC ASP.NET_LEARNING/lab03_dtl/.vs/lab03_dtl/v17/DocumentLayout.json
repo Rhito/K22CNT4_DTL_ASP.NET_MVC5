@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\lab03_dtl\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E06DEB60-8365-4D8E-AB65-85CE5C950666}|lab03_dtl\\lab03_dtl.csproj|d:\\hoctap\\k22cnt4_dtl_asp.net_mvc5\\mvc asp.net_learning\\lab03_dtl\\lab03_dtl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E06DEB60-8365-4D8E-AB65-85CE5C950666}|lab03_dtl\\lab03_dtl.csproj|solutionrelative:lab03_dtl\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E06DEB60-8365-4D8E-AB65-85CE5C950666}|lab03_dtl\\lab03_dtl.csproj|d:\\hoctap\\k22cnt4_dtl_asp.net_mvc5\\mvc asp.net_learning\\lab03_dtl\\lab03_dtl\\views\\passingdata\\viewbagtest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E06DEB60-8365-4D8E-AB65-85CE5C950666}|lab03_dtl\\lab03_dtl.csproj|solutionrelative:lab03_dtl\\views\\passingdata\\viewbagtest.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E06DEB60-8365-4D8E-AB65-85CE5C950666}|lab03_dtl\\lab03_dtl.csproj|d:\\hoctap\\k22cnt4_dtl_asp.net_mvc5\\mvc asp.net_learning\\lab03_dtl\\lab03_dtl\\views\\passingdata\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E06DEB60-8365-4D8E-AB65-85CE5C950666}|lab03_dtl\\lab03_dtl.csproj|solutionrelative:lab03_dtl\\views\\passingdata\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E06DEB60-8365-4D8E-AB65-85CE5C950666}|lab03_dtl\\lab03_dtl.csproj|d:\\hoctap\\k22cnt4_dtl_asp.net_mvc5\\mvc asp.net_learning\\lab03_dtl\\lab03_dtl\\controllers\\passingdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E06DEB60-8365-4D8E-AB65-85CE5C950666}|lab03_dtl\\lab03_dtl.csproj|solutionrelative:lab03_dtl\\controllers\\passingdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\lab03_dtl\\lab03_dtl\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "lab03_dtl\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\lab03_dtl\\lab03_dtl\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "lab03_dtl\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T02:10:55.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\lab03_dtl\\lab03_dtl\\Views\\PassingData\\About.cshtml",
+              "RelativeDocumentMoniker": "lab03_dtl\\Views\\PassingData\\About.cshtml",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\lab03_dtl\\lab03_dtl\\Views\\PassingData\\About.cshtml",
+              "RelativeToolTip": "lab03_dtl\\Views\\PassingData\\About.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T02:10:05.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ViewBagTest.cshtml",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\lab03_dtl\\lab03_dtl\\Views\\PassingData\\ViewBagTest.cshtml",
+              "RelativeDocumentMoniker": "lab03_dtl\\Views\\PassingData\\ViewBagTest.cshtml",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\lab03_dtl\\lab03_dtl\\Views\\PassingData\\ViewBagTest.cshtml",
+              "RelativeToolTip": "lab03_dtl\\Views\\PassingData\\ViewBagTest.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T02:04:15.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PassingDataController.cs",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\lab03_dtl\\lab03_dtl\\Controllers\\PassingDataController.cs",
+              "RelativeDocumentMoniker": "lab03_dtl\\Controllers\\PassingDataController.cs",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\lab03_dtl\\lab03_dtl\\Controllers\\PassingDataController.cs",
+              "RelativeToolTip": "lab03_dtl\\Controllers\\PassingDataController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwCIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T01:53:25.769Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
