@@ -18,20 +18,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\HOCTAP\K22CNT4_DTL_ASP.NET_MVC5\MVC ASP.NET_LEARNING\Lab2_3_dtl\Lab2_3_dtl
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/HOCTAP/K22CNT4_DTL_ASP.NET_MVC5/MVC ASP.NET_LEARNING/Lab2_3_dtl/Lab2_3_dtl/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[D:/HOCTAP/K22CNT4_DTL_ASP.NET_MVC5/MVC ASP.NET_LEARNING/Lab2_3_dtl/Lab2_3_dtl/Views/DtlHome/DtlNhacViet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHRsSG9tZVxEdGxOaGFjVmlldC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOCTAP/K22CNT4_DTL_ASP.NET_MVC5/MVC ASP.NET_LEARNING/Lab2_3_dtl/Lab2_3_dtl/Views/Home/NhacViet.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxOaGFjVmlldC5jc2h0bWw=
+[D:/HOCTAP/K22CNT4_DTL_ASP.NET_MVC5/MVC ASP.NET_LEARNING/Lab2_3_dtl/Lab2_3_dtl/Views/DtlHome/DtlPhatNhac.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHRsSG9tZVxEdGxQaGF0TmhhYy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOCTAP/K22CNT4_DTL_ASP.NET_MVC5/MVC ASP.NET_LEARNING/Lab2_3_dtl/Lab2_3_dtl/Views/Home/PhatNhac.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQaGF0TmhhYy5jc2h0bWw=
+[D:/HOCTAP/K22CNT4_DTL_ASP.NET_MVC5/MVC ASP.NET_LEARNING/Lab2_3_dtl/Lab2_3_dtl/Views/DtlHome/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHRsSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/HOCTAP/K22CNT4_DTL_ASP.NET_MVC5/MVC ASP.NET_LEARNING/Lab2_3_dtl/Lab2_3_dtl/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[D:/HOCTAP/K22CNT4_DTL_ASP.NET_MVC5/MVC ASP.NET_LEARNING/Lab2_3_dtl/Lab2_3_dtl/Views/DtlHome/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHRsSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/HOCTAP/K22CNT4_DTL_ASP.NET_MVC5/MVC ASP.NET_LEARNING/Lab2_3_dtl/Lab2_3_dtl/Views/Shared/Error.cshtml]

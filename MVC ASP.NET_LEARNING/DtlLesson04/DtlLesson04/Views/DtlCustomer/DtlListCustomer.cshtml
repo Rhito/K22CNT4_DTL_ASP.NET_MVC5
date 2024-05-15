@@ -1,0 +1,40 @@
+﻿@model List<DtlLesson04.Models.DtlCustomer>
+@{
+    ViewBag.Title = "Danh sách khách hàng";
+    // var list = ViewBag.List;
+    // var list = Model as List<DtlLesson04.Models.DtlCustomer>;
+    int stt = 0;
+}
+
+<h2>Danh sách khách hàng</h2>
+<div>
+     <table class="table table-bordered>
+         <thead>
+             <tr>
+                 <th>#</th>
+                 <th>Mã số</th>
+                 <th>Họ và tên</th>
+                 <th>Địa chỉ</th>
+                 <th>Năm sinh</th>
+                 <th>Chức năng</th>
+             </tr>
+         </thead>
+         <tbody>
+             @foreach(var cus in Model)
+            {
+                 stt++;
+                 <tr>
+                     <td>@stt</td>
+                     <td>@cus.CustomerID</td>
+                     <td>@cus.LastName @cus.FirstName</td>
+                     <td>@cus.Address</td>
+                     <td>@cus.YearOfBirth</td>
+                     <td>
+                         <a href="#">Edit</a> || 
+                         <a href="#">Delete</a>
+                     </td>
+                 </tr>
+            }
+         </tbody>
+     </table>
+</div>

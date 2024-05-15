@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Danh sách khách hàng";
+    //lấy danh sách khách hàng và convert data
+    var listcustomer = ViewBag.listcustomer as List<Dtl_lab04.Models.DtlCustomer>;
+}
+<h2>Danh sách khách hàng</h2>
+<table class="table-bordered">
+    <thead>
+        <tr>
+            <th>Mã KH</th>
+            <th>Họ và tên</th>
+            <th>Địa chỉ</th>
+            <th>Email</th>
+            <th>Điện thoại</th>
+            <th>Số dư</th>
+        </tr>
+    </thead>
+    <tbody>
+        @*Hiển thị danh sách khách hàng*@
+        @foreach (var c in listcustomer)
+        {
+            <tr>
+                <td>@c.CustomerId</td>
+                <td>@c.FullName</td>
+                <td>@c.Address</td>
+                <td>@c.Email</td>
+                <td>@c.Phone</td>
+                <td>@c.Balance</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -10,7 +10,7 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
-    app.UseExceptionHandler("/Home/Error");
+    app.UseExceptionHandler("/DtlHome/Error");
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
@@ -27,21 +27,21 @@ app.UseEndpoints(endpoints =>
     endpoints.MapControllerRoute(
         name: "NhacVietPlaylist",
         pattern: "Play_List/Nhac_Viet",
-        defaults: new { controller = "Home", action = "NhacViet" });
+        defaults: new { controller = "DtlHome", action = "DtlNhacViet" });
 
     endpoints.MapControllerRoute(
        name: "PlayList",
        pattern: "Play_List",
-       defaults: new { controller = "Home", action = "NhacViet" });
+       defaults: new { controller = "DtlHome", action = "DtlNhacViet" });
 
     endpoints.MapControllerRoute(
        name: "PlayBack",
        pattern: "Play Back/{name}",
-       defaults: new { controller = "Home", action = "PhatNhac", name = (string)null });
+       defaults: new { controller = "DtlHome", action = "DtlPhatNhac", name = (string)null });
 
     endpoints.MapControllerRoute(
         name: "default",
-        pattern: "{controller=Home}/{action=Index}/{id?}");
+        pattern: "{controller=DtlHome}/{action=Index}/{id?}");
 
 });
 
