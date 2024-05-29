@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson04\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{47707DF4-A1D7-4350-BB6C-9AF8D897E375}|DtlLesson04\\DtlLesson04.csproj|d:\\hoctap\\k22cnt4_dtl_asp.net_mvc5\\mvc asp.net_learning\\dtllesson04\\dtllesson04\\controllers\\dtlcustomerscaffoldingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47707DF4-A1D7-4350-BB6C-9AF8D897E375}|DtlLesson04\\DtlLesson04.csproj|solutionrelative:dtllesson04\\controllers\\dtlcustomerscaffoldingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{47707DF4-A1D7-4350-BB6C-9AF8D897E375}|DtlLesson04\\DtlLesson04.csproj|D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson04\\dtllesson04\\views\\dtlcustomerscaffolding\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{47707DF4-A1D7-4350-BB6C-9AF8D897E375}|DtlLesson04\\DtlLesson04.csproj|solutionrelative:dtllesson04\\views\\dtlcustomerscaffolding\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47707DF4-A1D7-4350-BB6C-9AF8D897E375}|DtlLesson04\\DtlLesson04.csproj|D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson04\\dtllesson04\\views\\dtlcustomerscaffolding\\dtldetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{47707DF4-A1D7-4350-BB6C-9AF8D897E375}|DtlLesson04\\DtlLesson04.csproj|d:\\hoctap\\k22cnt4_dtl_asp.net_mvc5\\mvc asp.net_learning\\dtllesson04\\dtllesson04\\views\\dtlcustomerscaffolding\\dtldetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{47707DF4-A1D7-4350-BB6C-9AF8D897E375}|DtlLesson04\\DtlLesson04.csproj|solutionrelative:dtllesson04\\views\\dtlcustomerscaffolding\\dtldetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47707DF4-A1D7-4350-BB6C-9AF8D897E375}|DtlLesson04\\DtlLesson04.csproj|D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson04\\dtllesson04\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{47707DF4-A1D7-4350-BB6C-9AF8D897E375}|DtlLesson04\\DtlLesson04.csproj|solutionrelative:dtllesson04\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47707DF4-A1D7-4350-BB6C-9AF8D897E375}|DtlLesson04\\DtlLesson04.csproj|D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson04\\dtllesson04\\controllers\\dtlcustomerscaffoldingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47707DF4-A1D7-4350-BB6C-9AF8D897E375}|DtlLesson04\\DtlLesson04.csproj|solutionrelative:dtllesson04\\controllers\\dtlcustomerscaffoldingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,36 +31,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson04\\DtlLesson04\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "DtlLesson04\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson04\\DtlLesson04\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "DtlLesson04\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T07:22:55.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "DtlDetails.cshtml",
               "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson04\\DtlLesson04\\Views\\DtlCustomerScaffolding\\DtlDetails.cshtml",
               "RelativeDocumentMoniker": "DtlLesson04\\Views\\DtlCustomerScaffolding\\DtlDetails.cshtml",
               "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson04\\DtlLesson04\\Views\\DtlCustomerScaffolding\\DtlDetails.cshtml",
               "RelativeToolTip": "DtlLesson04\\Views\\DtlCustomerScaffolding\\DtlDetails.cshtml",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADEAAAAZAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADkAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-15T14:50:32.972Z"
+              "WhenOpened": "2024-05-15T14:50:32.972Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson04\\DtlLesson04\\Views\\DtlCustomerScaffolding\\Index.cshtml",
               "RelativeDocumentMoniker": "DtlLesson04\\Views\\DtlCustomerScaffolding\\Index.cshtml",
               "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson04\\DtlLesson04\\Views\\DtlCustomerScaffolding\\Index.cshtml",
               "RelativeToolTip": "DtlLesson04\\Views\\DtlCustomerScaffolding\\Index.cshtml",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAADkAAAAAAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-15T13:49:01.974Z"
+              "WhenOpened": "2024-05-15T13:49:01.974Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "DtlCustomerScaffoldingController.cs",
               "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson04\\DtlLesson04\\Controllers\\DtlCustomerScaffoldingController.cs",
               "RelativeDocumentMoniker": "DtlLesson04\\Controllers\\DtlCustomerScaffoldingController.cs",
               "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson04\\DtlLesson04\\Controllers\\DtlCustomerScaffoldingController.cs",
               "RelativeToolTip": "DtlLesson04\\Controllers\\DtlCustomerScaffoldingController.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAQwFAAAAAJAAAA",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAkwFoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-15T13:35:19.093Z",
               "EditorCaption": ""

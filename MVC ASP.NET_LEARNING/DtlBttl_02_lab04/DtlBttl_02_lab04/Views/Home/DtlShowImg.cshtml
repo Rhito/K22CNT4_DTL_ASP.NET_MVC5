@@ -1,0 +1,20 @@
+﻿@model List<string>
+
+@{
+    ViewBag.Title = "Image Gallery";
+}
+
+<h2>Image Gallery</h2>
+
+<div class="d-flex justify-content-center flex-wrap gap-6">
+    @foreach (var image in Model)
+    {
+        <div style="width: 200px; margin= 15px"  >
+            <img src="@Url.Content("~/Content/images/" + image)" alt="@image" style=" width: 200px; height: 260px;" />
+            <p style="text-overflow">@image</p>
+        </div>
+    }
+</div>
+<hr/>
+<br/>
+@Html.Partial("DtlUpload", Model)

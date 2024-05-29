@@ -1,0 +1,79 @@
+﻿@model Dtl_BaiThiGiuaKy.Models.DtlCustomer
+
+@{
+    ViewBag.Title = "DtlCreate: Thêm mới customer";
+}
+
+<h2>DtlCreate: Thêm mới customer</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group my-2">
+            @Html.LabelFor(model => model.Dtl_2210900038_CustId, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Dtl_2210900038_CustId, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Dtl_2210900038_CustId, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group my-2">
+            @Html.LabelFor(model => model.Dtl_FullName, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Dtl_FullName, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Dtl_FullName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group my-2">
+            @Html.LabelFor(model => model.Dtl_Address, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Dtl_Address, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Dtl_Address, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group my-2">
+            @Html.LabelFor(model => model.Dtl_Email, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Dtl_Email, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Dtl_Email, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group my-2">
+            @Html.LabelFor(model => model.Dtl_Phone, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Dtl_Phone, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Dtl_Phone, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group ">
+            @Html.LabelFor(model => model.Dtl_Balance, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Dtl_Balance, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.Dtl_Balance, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" name="dtlBtn" class="btn btn-success my-3" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "DtlIndex")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

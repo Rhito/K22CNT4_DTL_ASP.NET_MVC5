@@ -1,0 +1,57 @@
+﻿@model Dtl_lab05.Models.DtlMember
+
+@{
+    ViewBag.Title = "Dtl: Chi tiết thành viên";
+}
+
+<h2>Dtl: Chi tiết thành viên</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DtlUserName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DtlUserName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DtlFullName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DtlFullName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DtlPassword)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DtlPassword)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DtlAge)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DtlAge)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DtlEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DtlEmail)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "DtlEdit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "DtlIndex")
+</p>

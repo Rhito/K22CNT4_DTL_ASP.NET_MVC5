@@ -1,0 +1,65 @@
+﻿@model Dtl_BaiThiGiuaKy.Models.DtlCustomer
+
+@{
+    ViewBag.Title = "DtlDetails: Chi tiết khách hàng";
+}
+
+<h2>DtlDetails: Chi tiết khách hàng</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Dtl_2210900038_CustId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dtl_2210900038_CustId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dtl_FullName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dtl_FullName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dtl_Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dtl_Address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dtl_Email)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dtl_Email)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dtl_Phone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dtl_Phone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dtl_Balance)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dtl_Balance)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "DtlEdit", new { id = Model.Dtl_2210900038_CustId }) |
+    @Html.ActionLink("Back to List", "DtlIndex")
+</p>

@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Dtl_BaiThiGiuaKy.Models.DtlCustomer>
+
+@{
+    ViewBag.Title = "Dtl: Hiển thị danh sách khách";
+}
+
+<h2>Dtl: Hiển thị danh sách khách</h2>
+
+<p>
+    @Html.ActionLink("Dtl: Create New", "DtlCreate")
+</p>
+<table class="table table-bordered">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Dtl_2210900038_CustId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dtl_FullName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dtl_Address)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dtl_Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dtl_Phone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dtl_Balance)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dtl_2210900038_CustId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dtl_FullName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dtl_Address)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dtl_Email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dtl_Phone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dtl_Balance)
+        </td>
+        <td>
+            @Html.ActionLink("DtlEdit", "DtlEdit", new { id = item.Dtl_2210900038_CustId }) |
+            @Html.ActionLink("DtlDetails", "DtlDetails", new { id = item.Dtl_2210900038_CustId }) |
+            @Html.ActionLink("DtlDelete", "DtlDelete", new { id = item.Dtl_2210900038_CustId }, new { @onclick = "return confirm('Bạn có muốn xóa không?');" })
+        </td>
+    </tr>
+}
+
+</table>
