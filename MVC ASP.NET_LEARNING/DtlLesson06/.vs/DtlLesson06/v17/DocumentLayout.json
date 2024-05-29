@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson06\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{72A72D57-EF8D-4ABC-A41D-2B835E93949C}|DtlLesson06\\DtlLesson06.csproj|d:\\hoctap\\k22cnt4_dtl_asp.net_mvc5\\mvc asp.net_learning\\dtllesson06\\dtllesson06\\models\\dtlsong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A72D57-EF8D-4ABC-A41D-2B835E93949C}|DtlLesson06\\DtlLesson06.csproj|solutionrelative:dtllesson06\\models\\dtlsong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A72D57-EF8D-4ABC-A41D-2B835E93949C}|DtlLesson06\\DtlLesson06.csproj|d:\\hoctap\\k22cnt4_dtl_asp.net_mvc5\\mvc asp.net_learning\\dtllesson06\\dtllesson06\\views\\dtlsong\\dtlcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A72D57-EF8D-4ABC-A41D-2B835E93949C}|DtlLesson06\\DtlLesson06.csproj|solutionrelative:dtllesson06\\views\\dtlsong\\dtlcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A72D57-EF8D-4ABC-A41D-2B835E93949C}|DtlLesson06\\DtlLesson06.csproj|d:\\hoctap\\k22cnt4_dtl_asp.net_mvc5\\mvc asp.net_learning\\dtllesson06\\dtllesson06\\controllers\\dtlsongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72A72D57-EF8D-4ABC-A41D-2B835E93949C}|DtlLesson06\\DtlLesson06.csproj|solutionrelative:dtllesson06\\controllers\\dtlsongcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72A72D57-EF8D-4ABC-A41D-2B835E93949C}|DtlLesson06\\DtlLesson06.csproj|d:\\hoctap\\k22cnt4_dtl_asp.net_mvc5\\mvc asp.net_learning\\dtllesson06\\dtllesson06\\views\\dtlsong\\dtlindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{72A72D57-EF8D-4ABC-A41D-2B835E93949C}|DtlLesson06\\DtlLesson06.csproj|solutionrelative:dtllesson06\\views\\dtlsong\\dtlindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DtlIndex.cshtml",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson06\\DtlLesson06\\Views\\DtlSong\\DtlIndex.cshtml",
+              "RelativeDocumentMoniker": "DtlLesson06\\Views\\DtlSong\\DtlIndex.cshtml",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson06\\DtlLesson06\\Views\\DtlSong\\DtlIndex.cshtml",
+              "RelativeToolTip": "DtlLesson06\\Views\\DtlSong\\DtlIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T03:20:41.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DtlCreate.cshtml",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson06\\DtlLesson06\\Views\\DtlSong\\DtlCreate.cshtml",
+              "RelativeDocumentMoniker": "DtlLesson06\\Views\\DtlSong\\DtlCreate.cshtml",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson06\\DtlLesson06\\Views\\DtlSong\\DtlCreate.cshtml",
+              "RelativeToolTip": "DtlLesson06\\Views\\DtlSong\\DtlCreate.cshtml",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADIAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-29T03:14:46.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DtlSong.cs",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson06\\DtlLesson06\\Models\\DtlSong.cs",
+              "RelativeDocumentMoniker": "DtlLesson06\\Models\\DtlSong.cs",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson06\\DtlLesson06\\Models\\DtlSong.cs",
+              "RelativeToolTip": "DtlLesson06\\Models\\DtlSong.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T01:40:33.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DtlSongController.cs",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson06\\DtlLesson06\\Controllers\\DtlSongController.cs",
+              "RelativeDocumentMoniker": "DtlLesson06\\Controllers\\DtlSongController.cs",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson06\\DtlLesson06\\Controllers\\DtlSongController.cs",
+              "RelativeToolTip": "DtlLesson06\\Controllers\\DtlSongController.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAADQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T01:43:01.33Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

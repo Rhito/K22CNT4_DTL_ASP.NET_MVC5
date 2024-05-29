@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Dtl_lab04_bttl\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B4514889-4583-4A3C-8F2F-DC13E88CCEEE}|Dtl_lab04_bttl\\Dtl_lab04_bttl.csproj|d:\\hoctap\\k22cnt4_dtl_asp.net_mvc5\\mvc asp.net_learning\\dtl_lab04_bttl\\dtl_lab04_bttl\\controllers\\dtlproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B4514889-4583-4A3C-8F2F-DC13E88CCEEE}|Dtl_lab04_bttl\\Dtl_lab04_bttl.csproj|D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Dtl_lab04_bttl\\dtl_lab04_bttl\\controllers\\dtlproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4514889-4583-4A3C-8F2F-DC13E88CCEEE}|Dtl_lab04_bttl\\Dtl_lab04_bttl.csproj|solutionrelative:dtl_lab04_bttl\\controllers\\dtlproductcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4514889-4583-4A3C-8F2F-DC13E88CCEEE}|Dtl_lab04_bttl\\Dtl_lab04_bttl.csproj|D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Dtl_lab04_bttl\\dtl_lab04_bttl\\app_data\\dtlproducts.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{B4514889-4583-4A3C-8F2F-DC13E88CCEEE}|Dtl_lab04_bttl\\Dtl_lab04_bttl.csproj|solutionrelative:dtl_lab04_bttl\\app_data\\dtlproducts.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4514889-4583-4A3C-8F2F-DC13E88CCEEE}|Dtl_lab04_bttl\\Dtl_lab04_bttl.csproj|D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Dtl_lab04_bttl\\dtl_lab04_bttl\\models\\dtlproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4514889-4583-4A3C-8F2F-DC13E88CCEEE}|Dtl_lab04_bttl\\Dtl_lab04_bttl.csproj|solutionrelative:dtl_lab04_bttl\\models\\dtlproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4514889-4583-4A3C-8F2F-DC13E88CCEEE}|Dtl_lab04_bttl\\Dtl_lab04_bttl.csproj|d:\\hoctap\\k22cnt4_dtl_asp.net_mvc5\\mvc asp.net_learning\\dtl_lab04_bttl\\dtl_lab04_bttl\\views\\dtlproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B4514889-4583-4A3C-8F2F-DC13E88CCEEE}|Dtl_lab04_bttl\\Dtl_lab04_bttl.csproj|solutionrelative:dtl_lab04_bttl\\views\\dtlproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Dtl_lab04_bttl\\Dtl_lab04_bttl\\Views\\DtlProduct\\Index.cshtml",
+              "RelativeDocumentMoniker": "Dtl_lab04_bttl\\Views\\DtlProduct\\Index.cshtml",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Dtl_lab04_bttl\\Dtl_lab04_bttl\\Views\\DtlProduct\\Index.cshtml",
+              "RelativeToolTip": "Dtl_lab04_bttl\\Views\\DtlProduct\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-16T15:18:01.94Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,34 +41,10 @@
               "RelativeDocumentMoniker": "Dtl_lab04_bttl\\Controllers\\DtlProductController.cs",
               "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Dtl_lab04_bttl\\Dtl_lab04_bttl\\Controllers\\DtlProductController.cs",
               "RelativeToolTip": "Dtl_lab04_bttl\\Controllers\\DtlProductController.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAUwA0AAAAIAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAkwB0AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-16T11:29:55.801Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DtlProducts.cs",
-              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Dtl_lab04_bttl\\Dtl_lab04_bttl\\Models\\DtlProducts.cs",
-              "RelativeDocumentMoniker": "Dtl_lab04_bttl\\Models\\DtlProducts.cs",
-              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Dtl_lab04_bttl\\Dtl_lab04_bttl\\Models\\DtlProducts.cs",
-              "RelativeToolTip": "Dtl_lab04_bttl\\Models\\DtlProducts.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-16T11:28:17.147Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DtlProducts.xml",
-              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Dtl_lab04_bttl\\Dtl_lab04_bttl\\App_Data\\DtlProducts.xml",
-              "RelativeDocumentMoniker": "Dtl_lab04_bttl\\App_Data\\DtlProducts.xml",
-              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Dtl_lab04_bttl\\Dtl_lab04_bttl\\App_Data\\DtlProducts.xml",
-              "RelativeToolTip": "Dtl_lab04_bttl\\App_Data\\DtlProducts.xml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-05-16T11:12:55.755Z"
             }
           ]
         }
