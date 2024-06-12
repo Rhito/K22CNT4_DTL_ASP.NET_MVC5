@@ -1,0 +1,74 @@
+﻿@model DtlK22CNT4Lesson07DF.Models.dtlSinhVien
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>dtlSinhVien</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DtlHoSV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DtlHoSV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DtlTenSV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DtlTenSV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DtlPhai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DtlPhai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DtlEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DtlEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DtlPhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DtlPhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DtlTrangThai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DtlTrangThai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dtlKhoa.dtlTenKhoa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dtlKhoa.dtlTenKhoa)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.dtkMaSV }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

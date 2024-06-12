@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DtlK22CNT4Lesson07DbModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="dtlKhoas">
+      <EntityTypeMapping TypeName="DtlK22CNT4Lesson07DbModel.dtlKhoa">
+        <MappingFragment StoreEntitySet="dtlKhoa">
+          <ScalarProperty Name="dtlMaKH" ColumnName="dtlMaKH" />
+          <ScalarProperty Name="dtlTenKhoa" ColumnName="dtlTenKhoa" />
+          <ScalarProperty Name="dtlTrangThai" ColumnName="dtlTrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="dtlSinhViens">
+      <EntityTypeMapping TypeName="DtlK22CNT4Lesson07DbModel.dtlSinhVien">
+        <MappingFragment StoreEntitySet="dtlSinhVien">
+          <ScalarProperty Name="dtkMaSV" ColumnName="dtkMaSV" />
+          <ScalarProperty Name="DtlHoSV" ColumnName="DtlHoSV" />
+          <ScalarProperty Name="DtlTenSV" ColumnName="DtlTenSV" />
+          <ScalarProperty Name="DtlPhai" ColumnName="DtlPhai" />
+          <ScalarProperty Name="DtlEmail" ColumnName="DtlEmail" />
+          <ScalarProperty Name="DtlPhone" ColumnName="DtlPhone" />
+          <ScalarProperty Name="DtlMaKH" ColumnName="DtlMaKH" />
+          <ScalarProperty Name="DtlTrangThai" ColumnName="DtlTrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,72 @@
+﻿@model IEnumerable<DtlK22CNT4Lesson07DF.Models.dtlSinhVien>
+
+@{
+    ViewBag.Title = "Index";
+    
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "DtlCreate")
+</p>
+<table class="table table-bordered">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DtlHoSV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DtlTenSV)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DtlPhai)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DtlEmail)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DtlPhone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DtlTrangThai)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dtlKhoa.dtlTenKhoa)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        var gender = item.DtlTrangThai == true ? "nam" : "nữ";
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DtlHoSV)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DtlTenSV)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DtlPhai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DtlEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DtlPhone)
+            </td>
+            <td>
+                @gender
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dtlKhoa.dtlTenKhoa)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "DtlEdit", new { id = item.dtkMaSV.Trim() }) |
+                @Html.ActionLink("Details", "DtlDetails", new { id = item.dtkMaSV.Trim() }) |
+                @Html.ActionLink("Delete", "DtlDelete", new { id = item.dtkMaSV.Trim() })
+            </td>
+        </tr>
+    }
+
+</table>

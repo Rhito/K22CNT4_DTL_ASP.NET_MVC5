@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DtlK22CNT4Lesson07DbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="dtlKhoa">
+    <Key>
+      <PropertyRef Name="dtlMaKH" />
+    </Key>
+    <Property Name="dtlMaKH" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="dtlTenKhoa" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="dtlTrangThai" Type="Boolean" />
+    <NavigationProperty Name="dtlSinhViens" Relationship="Self.FK_dtlSinhVien_dtlKhoa" FromRole="dtlKhoa" ToRole="dtlSinhVien" />
+  </EntityType>
+  <EntityType Name="dtlSinhVien">
+    <Key>
+      <PropertyRef Name="dtkMaSV" />
+    </Key>
+    <Property Name="dtkMaSV" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="DtlHoSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DtlTenSV" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DtlPhai" Type="Boolean" />
+    <Property Name="DtlEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DtlPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DtlMaKH" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="DtlTrangThai" Type="Boolean" />
+    <NavigationProperty Name="dtlKhoa" Relationship="Self.FK_dtlSinhVien_dtlKhoa" FromRole="dtlSinhVien" ToRole="dtlKhoa" />
+  </EntityType>
+  <Association Name="FK_dtlSinhVien_dtlKhoa">
+    <End Role="dtlKhoa" Type="Self.dtlKhoa" Multiplicity="0..1" />
+    <End Role="dtlSinhVien" Type="Self.dtlSinhVien" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="dtlKhoa">
+        <PropertyRef Name="dtlMaKH" />
+      </Principal>
+      <Dependent Role="dtlSinhVien">
+        <PropertyRef Name="DtlMaKH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="dtlKhoas" EntityType="Self.dtlKhoa" />
+    <EntitySet Name="dtlSinhViens" EntityType="Self.dtlSinhVien" />
+    <AssociationSet Name="FK_dtlSinhVien_dtlKhoa" Association="Self.FK_dtlSinhVien_dtlKhoa">
+      <End Role="dtlKhoa" EntitySet="dtlKhoas" />
+      <End Role="dtlSinhVien" EntitySet="dtlSinhViens" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

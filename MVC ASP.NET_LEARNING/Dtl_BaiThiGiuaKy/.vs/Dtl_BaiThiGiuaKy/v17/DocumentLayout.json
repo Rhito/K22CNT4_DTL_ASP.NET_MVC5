@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Dtl_BaiThiGiuaKy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13F82A59-44B3-4CAD-98B0-9616B32A56A6}|Dtl_BaiThiGiuaKy\\Dtl_BaiThiGiuaKy.csproj|D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Dtl_BaiThiGiuaKy\\dtl_baithigiuaky\\controllers\\dtlcustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13F82A59-44B3-4CAD-98B0-9616B32A56A6}|Dtl_BaiThiGiuaKy\\Dtl_BaiThiGiuaKy.csproj|D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Dtl_BaiThiGiuaKy\\dtl_baithigiuaky\\models\\dtlcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13F82A59-44B3-4CAD-98B0-9616B32A56A6}|Dtl_BaiThiGiuaKy\\Dtl_BaiThiGiuaKy.csproj|solutionrelative:dtl_baithigiuaky\\models\\dtlcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13F82A59-44B3-4CAD-98B0-9616B32A56A6}|Dtl_BaiThiGiuaKy\\Dtl_BaiThiGiuaKy.csproj|d:\\hoctap\\k22cnt4_dtl_asp.net_mvc5\\mvc asp.net_learning\\dtl_baithigiuaky\\dtl_baithigiuaky\\controllers\\dtlcustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{13F82A59-44B3-4CAD-98B0-9616B32A56A6}|Dtl_BaiThiGiuaKy\\Dtl_BaiThiGiuaKy.csproj|solutionrelative:dtl_baithigiuaky\\controllers\\dtlcustomercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,10 +27,6 @@
       "RelativeMoniker": "D:0:0:{13F82A59-44B3-4CAD-98B0-9616B32A56A6}|Dtl_BaiThiGiuaKy\\Dtl_BaiThiGiuaKy.csproj|solutionrelative:dtl_baithigiuaky\\views\\dtlcustomer\\dtlcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13F82A59-44B3-4CAD-98B0-9616B32A56A6}|Dtl_BaiThiGiuaKy\\Dtl_BaiThiGiuaKy.csproj|d:\\hoctap\\k22cnt4_dtl_asp.net_mvc5\\mvc asp.net_learning\\dtl_baithigiuaky\\dtl_baithigiuaky\\models\\dtlcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13F82A59-44B3-4CAD-98B0-9616B32A56A6}|Dtl_BaiThiGiuaKy\\Dtl_BaiThiGiuaKy.csproj|solutionrelative:dtl_baithigiuaky\\models\\dtlcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{13F82A59-44B3-4CAD-98B0-9616B32A56A6}|Dtl_BaiThiGiuaKy\\Dtl_BaiThiGiuaKy.csproj|D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Dtl_BaiThiGiuaKy\\dtl_baithigiuaky\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{13F82A59-44B3-4CAD-98B0-9616B32A56A6}|Dtl_BaiThiGiuaKy\\Dtl_BaiThiGiuaKy.csproj|solutionrelative:dtl_baithigiuaky\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
@@ -38,24 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "DtlCustomer.cs",
               "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Dtl_BaiThiGiuaKy\\Dtl_BaiThiGiuaKy\\Models\\DtlCustomer.cs",
               "RelativeDocumentMoniker": "Dtl_BaiThiGiuaKy\\Models\\DtlCustomer.cs",
               "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Dtl_BaiThiGiuaKy\\Dtl_BaiThiGiuaKy\\Models\\DtlCustomer.cs",
               "RelativeToolTip": "Dtl_BaiThiGiuaKy\\Models\\DtlCustomer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T08:06:45.977Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "DtlIndex.cshtml",
               "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Dtl_BaiThiGiuaKy\\Dtl_BaiThiGiuaKy\\Views\\DtlCustomer\\DtlIndex.cshtml",
               "RelativeDocumentMoniker": "Dtl_BaiThiGiuaKy\\Views\\DtlCustomer\\DtlIndex.cshtml",
@@ -63,12 +63,11 @@
               "RelativeToolTip": "Dtl_BaiThiGiuaKy\\Views\\DtlCustomer\\DtlIndex.cshtml",
               "ViewState": "AQIAADAAAAAAAAAAAAAAADoAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-29T07:35:52.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T07:35:52.514Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DtlEdit.cshtml",
               "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Dtl_BaiThiGiuaKy\\Dtl_BaiThiGiuaKy\\Views\\DtlCustomer\\DtlEdit.cshtml",
               "RelativeDocumentMoniker": "Dtl_BaiThiGiuaKy\\Views\\DtlCustomer\\DtlEdit.cshtml",
@@ -76,12 +75,11 @@
               "RelativeToolTip": "Dtl_BaiThiGiuaKy\\Views\\DtlCustomer\\DtlEdit.cshtml",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAAsAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-29T07:40:26.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T07:40:26.409Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "DtlCustomerController.cs",
               "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Dtl_BaiThiGiuaKy\\Dtl_BaiThiGiuaKy\\Controllers\\DtlCustomerController.cs",
               "RelativeDocumentMoniker": "Dtl_BaiThiGiuaKy\\Controllers\\DtlCustomerController.cs",
@@ -94,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "DtlCreate.cshtml",
               "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Dtl_BaiThiGiuaKy\\Dtl_BaiThiGiuaKy\\Views\\DtlCustomer\\DtlCreate.cshtml",
               "RelativeDocumentMoniker": "Dtl_BaiThiGiuaKy\\Views\\DtlCustomer\\DtlCreate.cshtml",
@@ -102,8 +100,7 @@
               "RelativeToolTip": "Dtl_BaiThiGiuaKy\\Views\\DtlCustomer\\DtlCreate.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-29T07:05:38.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T07:05:38.272Z"
             },
             {
               "$type": "Document",
@@ -115,12 +112,11 @@
               "RelativeToolTip": "Dtl_BaiThiGiuaKy\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-29T06:46:08.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T06:46:08.932Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DtlDetails.cshtml",
               "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\Dtl_BaiThiGiuaKy\\Dtl_BaiThiGiuaKy\\Views\\DtlCustomer\\DtlDetails.cshtml",
               "RelativeDocumentMoniker": "Dtl_BaiThiGiuaKy\\Views\\DtlCustomer\\DtlDetails.cshtml",
@@ -128,8 +124,7 @@
               "RelativeToolTip": "Dtl_BaiThiGiuaKy\\Views\\DtlCustomer\\DtlDetails.cshtml",
               "ViewState": "AQIAADMAAAAAAAAAAAAAADwAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-29T07:34:18.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T07:34:18.77Z"
             }
           ]
         }

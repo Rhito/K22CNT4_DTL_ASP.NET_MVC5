@@ -1,0 +1,80 @@
+﻿@model DtlK22CNT4Lesson07DF.Models.dtlSinhVien
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>dtlSinhVien</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DtlHoSV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DtlHoSV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DtlTenSV)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DtlTenSV)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DtlPhai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DtlPhai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DtlEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DtlEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DtlPhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DtlPhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DtlTrangThai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DtlTrangThai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dtlKhoa.dtlTenKhoa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dtlKhoa.dtlTenKhoa)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

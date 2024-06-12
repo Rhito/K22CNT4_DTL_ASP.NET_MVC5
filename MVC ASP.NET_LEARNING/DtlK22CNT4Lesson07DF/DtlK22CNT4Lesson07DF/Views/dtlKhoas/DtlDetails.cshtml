@@ -1,0 +1,34 @@
+﻿@model DtlK22CNT4Lesson07DF.Models.dtlKhoa
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>dtlKhoa</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.dtlTenKhoa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dtlTenKhoa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dtlTrangThai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dtlTrangThai)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.dtlMaKH.Trim() }) |
+    @Html.ActionLink("Back to List", "DtlIndex")
+</p>
