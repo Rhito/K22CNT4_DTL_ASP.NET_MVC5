@@ -50,44 +50,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson06CF\\DtlLesson06CF\\Views\\DtlBooks\\Index.cshtml",
-              "RelativeDocumentMoniker": "DtlLesson06CF\\Views\\DtlBooks\\Index.cshtml",
-              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson06CF\\DtlLesson06CF\\Views\\DtlBooks\\Index.cshtml",
-              "RelativeToolTip": "DtlLesson06CF\\Views\\DtlBooks\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T13:25:48.362Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DtlBooksController.cs",
-              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson06CF\\DtlLesson06CF\\Controllers\\DtlBooksController.cs",
-              "RelativeDocumentMoniker": "DtlLesson06CF\\Controllers\\DtlBooksController.cs",
-              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson06CF\\DtlLesson06CF\\Controllers\\DtlBooksController.cs",
-              "RelativeToolTip": "DtlLesson06CF\\Controllers\\DtlBooksController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T13:23:30.72Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DtlCreate.cshtml",
-              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson06CF\\DtlLesson06CF\\Views\\DtlCategories\\DtlCreate.cshtml",
-              "RelativeDocumentMoniker": "DtlLesson06CF\\Views\\DtlCategories\\DtlCreate.cshtml",
-              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson06CF\\DtlLesson06CF\\Views\\DtlCategories\\DtlCreate.cshtml",
-              "RelativeToolTip": "DtlLesson06CF\\Views\\DtlCategories\\DtlCreate.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T13:05:22.072Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -132,10 +96,46 @@
               "RelativeDocumentMoniker": "DtlLesson06CF\\Web.config",
               "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson06CF\\DtlLesson06CF\\Web.config",
               "RelativeToolTip": "DtlLesson06CF\\Web.config",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAEYAAAA8AAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEkAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2024-06-05T12:40:02.425Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DtlCreate.cshtml",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson06CF\\DtlLesson06CF\\Views\\DtlCategories\\DtlCreate.cshtml",
+              "RelativeDocumentMoniker": "DtlLesson06CF\\Views\\DtlCategories\\DtlCreate.cshtml",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson06CF\\DtlLesson06CF\\Views\\DtlCategories\\DtlCreate.cshtml",
+              "RelativeToolTip": "DtlLesson06CF\\Views\\DtlCategories\\DtlCreate.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T13:05:22.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DtlBooksController.cs",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson06CF\\DtlLesson06CF\\Controllers\\DtlBooksController.cs",
+              "RelativeDocumentMoniker": "DtlLesson06CF\\Controllers\\DtlBooksController.cs",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson06CF\\DtlLesson06CF\\Controllers\\DtlBooksController.cs",
+              "RelativeToolTip": "DtlLesson06CF\\Controllers\\DtlBooksController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T13:23:30.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson06CF\\DtlLesson06CF\\Views\\DtlBooks\\Index.cshtml",
+              "RelativeDocumentMoniker": "DtlLesson06CF\\Views\\DtlBooks\\Index.cshtml",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson06CF\\DtlLesson06CF\\Views\\DtlBooks\\Index.cshtml",
+              "RelativeToolTip": "DtlLesson06CF\\Views\\DtlBooks\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T13:25:48.362Z"
             },
             {
               "$type": "Document",
