@@ -1,0 +1,34 @@
+﻿@model Dtl_K22Cnt4_DF.Models.MonHoc
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>MonHoc</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TenMH)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TenMH)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SoTiet)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SoTiet)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "DtlEdit", new { id = Model.MaMH.Trim() }) |
+    @Html.ActionLink("Back to List", "DtlIndex")
+</p>

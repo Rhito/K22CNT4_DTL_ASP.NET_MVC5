@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Dtl_K22Cnt4_DF.Models.Khoa>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "DtlCreate")
+</p>
+<table class="table table-bordered">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.TenKH)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.TenKH)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "DtlEdit", new { id=item.MaKH.Trim() }) |
+            @Html.ActionLink("Details", "DtlDetails", new { id=item.MaKH.Trim() }) |
+            @Html.ActionLink("Delete", "DtlDelete", new { id=item.MaKH.Trim() })
+        </td>
+    </tr>
+}
+
+</table>
