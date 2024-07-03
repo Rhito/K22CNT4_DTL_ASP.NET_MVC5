@@ -1,0 +1,66 @@
+﻿@model DtlK22Cnt4Lesson10CB.Models.DtlAccount
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>DtlAccount</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DtlUserName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DtlUserName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DtlPassword)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DtlPassword)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DtlFullName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DtlFullName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DtlEmail)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DtlEmail)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DtlPhone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DtlPhone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DtlActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DtlActive)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.DtlId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DtlK22CNT4Lesson10CBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="DtlAccount">
+          <Key>
+            <PropertyRef Name="DtlId" />
+          </Key>
+          <Property Name="DtlId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="DtlUserName" Type="nvarchar" MaxLength="50" />
+          <Property Name="DtlPassword" Type="nvarchar" MaxLength="50" />
+          <Property Name="DtlFullName" Type="nvarchar" MaxLength="50" />
+          <Property Name="DtlEmail" Type="nvarchar" MaxLength="50" />
+          <Property Name="DtlPhone" Type="nvarchar" MaxLength="50" />
+          <Property Name="DtlActive" Type="bit" />
+        </EntityType>
+        <EntityContainer Name="DtlK22CNT4Lesson10CBModelStoreContainer">
+          <EntitySet Name="DtlAccount" EntityType="Self.DtlAccount" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DtlK22CNT4Lesson10CBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="DtlAccount">
+          <Key>
+            <PropertyRef Name="DtlId" />
+          </Key>
+          <Property Name="DtlId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DtlUserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="DtlPassword" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="DtlFullName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="DtlEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="DtlPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="DtlActive" Type="Boolean" />
+        </EntityType>
+        <EntityContainer Name="DtlK22CNT4Lesson10CBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="DtlAccounts" EntityType="Self.DtlAccount" />
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DtlK22CNT4Lesson10CBModelStoreContainer" CdmEntityContainer="DtlK22CNT4Lesson10CBEntities">
+          <EntitySetMapping Name="DtlAccounts">
+            <EntityTypeMapping TypeName="DtlK22CNT4Lesson10CBModel.DtlAccount">
+              <MappingFragment StoreEntitySet="DtlAccount">
+                <ScalarProperty Name="DtlId" ColumnName="DtlId" />
+                <ScalarProperty Name="DtlUserName" ColumnName="DtlUserName" />
+                <ScalarProperty Name="DtlPassword" ColumnName="DtlPassword" />
+                <ScalarProperty Name="DtlFullName" ColumnName="DtlFullName" />
+                <ScalarProperty Name="DtlEmail" ColumnName="DtlEmail" />
+                <ScalarProperty Name="DtlPhone" ColumnName="DtlPhone" />
+                <ScalarProperty Name="DtlActive" ColumnName="DtlActive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>
