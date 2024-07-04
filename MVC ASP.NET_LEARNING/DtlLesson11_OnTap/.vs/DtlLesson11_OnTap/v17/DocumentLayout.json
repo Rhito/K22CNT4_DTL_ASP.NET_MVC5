@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson11_OnTap\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{71BCFEFC-854C-4CA5-88C6-DABAA7986775}|DtlLesson11_OnTap\\DtlLesson11_OnTap.csproj|d:\\hoctap\\k22cnt4_dtl_asp.net_mvc5\\mvc asp.net_learning\\dtllesson11_ontap\\dtllesson11_ontap\\views\\dtlproducts\\dtlindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71BCFEFC-854C-4CA5-88C6-DABAA7986775}|DtlLesson11_OnTap\\DtlLesson11_OnTap.csproj|solutionrelative:dtllesson11_ontap\\views\\dtlproducts\\dtlindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71BCFEFC-854C-4CA5-88C6-DABAA7986775}|DtlLesson11_OnTap\\DtlLesson11_OnTap.csproj|d:\\hoctap\\k22cnt4_dtl_asp.net_mvc5\\mvc asp.net_learning\\dtllesson11_ontap\\dtllesson11_ontap\\views\\dtlcategories\\dtlindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71BCFEFC-854C-4CA5-88C6-DABAA7986775}|DtlLesson11_OnTap\\DtlLesson11_OnTap.csproj|solutionrelative:dtllesson11_ontap\\views\\dtlcategories\\dtlindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71BCFEFC-854C-4CA5-88C6-DABAA7986775}|DtlLesson11_OnTap\\DtlLesson11_OnTap.csproj|d:\\hoctap\\k22cnt4_dtl_asp.net_mvc5\\mvc asp.net_learning\\dtllesson11_ontap\\dtllesson11_ontap\\views\\shared\\_dtllayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71BCFEFC-854C-4CA5-88C6-DABAA7986775}|DtlLesson11_OnTap\\DtlLesson11_OnTap.csproj|solutionrelative:dtllesson11_ontap\\views\\shared\\_dtllayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71BCFEFC-854C-4CA5-88C6-DABAA7986775}|DtlLesson11_OnTap\\DtlLesson11_OnTap.csproj|d:\\hoctap\\k22cnt4_dtl_asp.net_mvc5\\mvc asp.net_learning\\dtllesson11_ontap\\dtllesson11_ontap\\views\\dtlproducts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71BCFEFC-854C-4CA5-88C6-DABAA7986775}|DtlLesson11_OnTap\\DtlLesson11_OnTap.csproj|solutionrelative:dtllesson11_ontap\\views\\dtlproducts\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71BCFEFC-854C-4CA5-88C6-DABAA7986775}|DtlLesson11_OnTap\\DtlLesson11_OnTap.csproj|d:\\hoctap\\k22cnt4_dtl_asp.net_mvc5\\mvc asp.net_learning\\dtllesson11_ontap\\dtllesson11_ontap\\views\\dtlproducts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71BCFEFC-854C-4CA5-88C6-DABAA7986775}|DtlLesson11_OnTap\\DtlLesson11_OnTap.csproj|solutionrelative:dtllesson11_ontap\\views\\dtlproducts\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71BCFEFC-854C-4CA5-88C6-DABAA7986775}|DtlLesson11_OnTap\\DtlLesson11_OnTap.csproj|d:\\hoctap\\k22cnt4_dtl_asp.net_mvc5\\mvc asp.net_learning\\dtllesson11_ontap\\dtllesson11_ontap\\views\\dtlproducts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71BCFEFC-854C-4CA5-88C6-DABAA7986775}|DtlLesson11_OnTap\\DtlLesson11_OnTap.csproj|solutionrelative:dtllesson11_ontap\\views\\dtlproducts\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71BCFEFC-854C-4CA5-88C6-DABAA7986775}|DtlLesson11_OnTap\\DtlLesson11_OnTap.csproj|d:\\hoctap\\k22cnt4_dtl_asp.net_mvc5\\mvc asp.net_learning\\dtllesson11_ontap\\dtllesson11_ontap\\views\\dtlproducts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{71BCFEFC-854C-4CA5-88C6-DABAA7986775}|DtlLesson11_OnTap\\DtlLesson11_OnTap.csproj|solutionrelative:dtllesson11_ontap\\views\\dtlproducts\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_DtlLayout.cshtml",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson11_OnTap\\DtlLesson11_OnTap\\Views\\Shared\\_DtlLayout.cshtml",
+              "RelativeDocumentMoniker": "DtlLesson11_OnTap\\Views\\Shared\\_DtlLayout.cshtml",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson11_OnTap\\DtlLesson11_OnTap\\Views\\Shared\\_DtlLayout.cshtml",
+              "RelativeToolTip": "DtlLesson11_OnTap\\Views\\Shared\\_DtlLayout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T04:23:09.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson11_OnTap\\DtlLesson11_OnTap\\Views\\DtlProducts\\Edit.cshtml",
+              "RelativeDocumentMoniker": "DtlLesson11_OnTap\\Views\\DtlProducts\\Edit.cshtml",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson11_OnTap\\DtlLesson11_OnTap\\Views\\DtlProducts\\Edit.cshtml",
+              "RelativeToolTip": "DtlLesson11_OnTap\\Views\\DtlProducts\\Edit.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T04:22:47.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson11_OnTap\\DtlLesson11_OnTap\\Views\\DtlProducts\\Details.cshtml",
+              "RelativeDocumentMoniker": "DtlLesson11_OnTap\\Views\\DtlProducts\\Details.cshtml",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson11_OnTap\\DtlLesson11_OnTap\\Views\\DtlProducts\\Details.cshtml",
+              "RelativeToolTip": "DtlLesson11_OnTap\\Views\\DtlProducts\\Details.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAADgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T04:22:40.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson11_OnTap\\DtlLesson11_OnTap\\Views\\DtlProducts\\Delete.cshtml",
+              "RelativeDocumentMoniker": "DtlLesson11_OnTap\\Views\\DtlProducts\\Delete.cshtml",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson11_OnTap\\DtlLesson11_OnTap\\Views\\DtlProducts\\Delete.cshtml",
+              "RelativeToolTip": "DtlLesson11_OnTap\\Views\\DtlProducts\\Delete.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADsAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T04:22:20.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson11_OnTap\\DtlLesson11_OnTap\\Views\\DtlProducts\\Create.cshtml",
+              "RelativeDocumentMoniker": "DtlLesson11_OnTap\\Views\\DtlProducts\\Create.cshtml",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson11_OnTap\\DtlLesson11_OnTap\\Views\\DtlProducts\\Create.cshtml",
+              "RelativeToolTip": "DtlLesson11_OnTap\\Views\\DtlProducts\\Create.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEUAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T04:22:13.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DtlIndex.cshtml",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson11_OnTap\\DtlLesson11_OnTap\\Views\\DtlProducts\\DtlIndex.cshtml",
+              "RelativeDocumentMoniker": "DtlLesson11_OnTap\\Views\\DtlProducts\\DtlIndex.cshtml",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson11_OnTap\\DtlLesson11_OnTap\\Views\\DtlProducts\\DtlIndex.cshtml",
+              "RelativeToolTip": "DtlLesson11_OnTap\\Views\\DtlProducts\\DtlIndex.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T04:21:44.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DtlIndex.cshtml",
+              "DocumentMoniker": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson11_OnTap\\DtlLesson11_OnTap\\Views\\DtlCategories\\DtlIndex.cshtml",
+              "RelativeDocumentMoniker": "DtlLesson11_OnTap\\Views\\DtlCategories\\DtlIndex.cshtml",
+              "ToolTip": "D:\\HOCTAP\\K22CNT4_DTL_ASP.NET_MVC5\\MVC ASP.NET_LEARNING\\DtlLesson11_OnTap\\DtlLesson11_OnTap\\Views\\DtlCategories\\DtlIndex.cshtml",
+              "RelativeToolTip": "DtlLesson11_OnTap\\Views\\DtlCategories\\DtlIndex.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-04T04:21:14.27Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

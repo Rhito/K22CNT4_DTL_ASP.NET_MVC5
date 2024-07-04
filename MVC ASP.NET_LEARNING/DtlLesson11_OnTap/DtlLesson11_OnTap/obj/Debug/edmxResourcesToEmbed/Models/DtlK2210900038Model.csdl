@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DtlK22CNT4Lesson11DbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="DtlCategory">
+    <Key>
+      <PropertyRef Name="DtlId" />
+    </Key>
+    <Property Name="DtlId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DtlCateName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DtlStatus" Type="Boolean" />
+    <NavigationProperty Name="DtlProducts" Relationship="Self.FK_DtlProduct_DtlCategory" FromRole="DtlCategory" ToRole="DtlProduct" />
+  </EntityType>
+  <EntityType Name="DtlProduct">
+    <Key>
+      <PropertyRef Name="DtlId2210900038" />
+    </Key>
+    <Property Name="DtlId2210900038" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DtlProName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DtlQty" Type="Int32" />
+    <Property Name="DtlPrice" Type="Double" />
+    <Property Name="DtlCateId" Type="Int32" />
+    <Property Name="DtlActive" Type="Boolean" />
+    <NavigationProperty Name="DtlCategory" Relationship="Self.FK_DtlProduct_DtlCategory" FromRole="DtlProduct" ToRole="DtlCategory" />
+  </EntityType>
+  <Association Name="FK_DtlProduct_DtlCategory">
+    <End Role="DtlCategory" Type="Self.DtlCategory" Multiplicity="0..1" />
+    <End Role="DtlProduct" Type="Self.DtlProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DtlCategory">
+        <PropertyRef Name="DtlId" />
+      </Principal>
+      <Dependent Role="DtlProduct">
+        <PropertyRef Name="DtlCateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DtlK22CNT4Lesson11DbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DtlCategories" EntityType="Self.DtlCategory" />
+    <EntitySet Name="DtlProducts" EntityType="Self.DtlProduct" />
+    <AssociationSet Name="FK_DtlProduct_DtlCategory" Association="Self.FK_DtlProduct_DtlCategory">
+      <End Role="DtlCategory" EntitySet="DtlCategories" />
+      <End Role="DtlProduct" EntitySet="DtlProducts" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

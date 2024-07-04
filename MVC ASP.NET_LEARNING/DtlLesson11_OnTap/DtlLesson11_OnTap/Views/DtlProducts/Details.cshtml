@@ -1,0 +1,58 @@
+﻿@model DtlLesson11_OnTap.Models.DtlProduct
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>DtlProduct</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DtlProName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DtlProName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DtlQty)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DtlQty)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DtlPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DtlPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DtlActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DtlActive)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DtlCategory.DtlCateName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DtlCategory.DtlCateName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.DtlId2210900038 }) |
+    @Html.ActionLink("Back to List", "DtlIndex")
+</p>

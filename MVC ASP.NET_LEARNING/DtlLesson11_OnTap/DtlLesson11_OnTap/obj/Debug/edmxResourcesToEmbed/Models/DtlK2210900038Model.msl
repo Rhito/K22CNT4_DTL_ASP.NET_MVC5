@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DtlK22CNT4Lesson11DbModelStoreContainer" CdmEntityContainer="DtlK22CNT4Lesson11DbEntities">
+    <EntitySetMapping Name="DtlCategories">
+      <EntityTypeMapping TypeName="DtlK22CNT4Lesson11DbModel.DtlCategory">
+        <MappingFragment StoreEntitySet="DtlCategory">
+          <ScalarProperty Name="DtlId" ColumnName="DtlId" />
+          <ScalarProperty Name="DtlCateName" ColumnName="DtlCateName" />
+          <ScalarProperty Name="DtlStatus" ColumnName="DtlStatus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DtlProducts">
+      <EntityTypeMapping TypeName="DtlK22CNT4Lesson11DbModel.DtlProduct">
+        <MappingFragment StoreEntitySet="DtlProduct">
+          <ScalarProperty Name="DtlId2210900038" ColumnName="DtlId2210900038" />
+          <ScalarProperty Name="DtlProName" ColumnName="DtlProName" />
+          <ScalarProperty Name="DtlQty" ColumnName="DtlQty" />
+          <ScalarProperty Name="DtlPrice" ColumnName="DtlPrice" />
+          <ScalarProperty Name="DtlCateId" ColumnName="DtlCateId" />
+          <ScalarProperty Name="DtlActive" ColumnName="DtlActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

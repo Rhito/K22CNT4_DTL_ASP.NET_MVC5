@@ -1,0 +1,64 @@
+﻿@model IEnumerable<DtlLesson11_OnTap.Models.DtlProduct>
+
+@{
+    ViewBag.Title = "Danh sách sản phẩm";
+}
+
+<h2>Danh sách sản phẩm</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table table-bordered">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DtlProName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DtlQty)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DtlPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DtlActive)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DtlCategory.DtlCateName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DtlProName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DtlQty)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DtlPrice)
+        </td>
+        <td>
+            @if (item.DtlActive == true)
+            {
+                <p style="color: greenyellow">Hoạt động</p>
+            }
+            else
+            {
+                <p style="color: crimson">Không hoạt động</p>
+            }
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DtlCategory.DtlCateName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.DtlId2210900038 }) |
+            @Html.ActionLink("Details", "Details", new { id=item.DtlId2210900038 }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.DtlId2210900038 })
+        </td>
+    </tr>
+}
+
+</table>

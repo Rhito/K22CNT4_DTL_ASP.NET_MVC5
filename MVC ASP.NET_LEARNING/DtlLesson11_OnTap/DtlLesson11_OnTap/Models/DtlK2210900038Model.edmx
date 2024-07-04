@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DtlK22CNT4Lesson11DbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="DtlCategory">
+          <Key>
+            <PropertyRef Name="DtlId" />
+          </Key>
+          <Property Name="DtlId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="DtlCateName" Type="nvarchar" MaxLength="50" />
+          <Property Name="DtlStatus" Type="bit" />
+        </EntityType>
+        <EntityType Name="DtlProduct">
+          <Key>
+            <PropertyRef Name="DtlId2210900038" />
+          </Key>
+          <Property Name="DtlId2210900038" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="DtlProName" Type="nvarchar" MaxLength="50" />
+          <Property Name="DtlQty" Type="int" />
+          <Property Name="DtlPrice" Type="float" />
+          <Property Name="DtlCateId" Type="int" />
+          <Property Name="DtlActive" Type="bit" />
+        </EntityType>
+        <Association Name="FK_DtlProduct_DtlCategory">
+          <End Role="DtlCategory" Type="Self.DtlCategory" Multiplicity="0..1" />
+          <End Role="DtlProduct" Type="Self.DtlProduct" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="DtlCategory">
+              <PropertyRef Name="DtlId" />
+            </Principal>
+            <Dependent Role="DtlProduct">
+              <PropertyRef Name="DtlCateId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DtlK22CNT4Lesson11DbModelStoreContainer">
+          <EntitySet Name="DtlCategory" EntityType="Self.DtlCategory" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DtlProduct" EntityType="Self.DtlProduct" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_DtlProduct_DtlCategory" Association="Self.FK_DtlProduct_DtlCategory">
+            <End Role="DtlCategory" EntitySet="DtlCategory" />
+            <End Role="DtlProduct" EntitySet="DtlProduct" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DtlK22CNT4Lesson11DbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="DtlCategory">
+          <Key>
+            <PropertyRef Name="DtlId" />
+          </Key>
+          <Property Name="DtlId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DtlCateName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="DtlStatus" Type="Boolean" />
+          <NavigationProperty Name="DtlProducts" Relationship="Self.FK_DtlProduct_DtlCategory" FromRole="DtlCategory" ToRole="DtlProduct" />
+        </EntityType>
+        <EntityType Name="DtlProduct">
+          <Key>
+            <PropertyRef Name="DtlId2210900038" />
+          </Key>
+          <Property Name="DtlId2210900038" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="DtlProName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="DtlQty" Type="Int32" />
+          <Property Name="DtlPrice" Type="Double" />
+          <Property Name="DtlCateId" Type="Int32" />
+          <Property Name="DtlActive" Type="Boolean" />
+          <NavigationProperty Name="DtlCategory" Relationship="Self.FK_DtlProduct_DtlCategory" FromRole="DtlProduct" ToRole="DtlCategory" />
+        </EntityType>
+        <Association Name="FK_DtlProduct_DtlCategory">
+          <End Role="DtlCategory" Type="Self.DtlCategory" Multiplicity="0..1" />
+          <End Role="DtlProduct" Type="Self.DtlProduct" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="DtlCategory">
+              <PropertyRef Name="DtlId" />
+            </Principal>
+            <Dependent Role="DtlProduct">
+              <PropertyRef Name="DtlCateId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DtlK22CNT4Lesson11DbEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="DtlCategories" EntityType="Self.DtlCategory" />
+          <EntitySet Name="DtlProducts" EntityType="Self.DtlProduct" />
+          <AssociationSet Name="FK_DtlProduct_DtlCategory" Association="Self.FK_DtlProduct_DtlCategory">
+            <End Role="DtlCategory" EntitySet="DtlCategories" />
+            <End Role="DtlProduct" EntitySet="DtlProducts" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DtlK22CNT4Lesson11DbModelStoreContainer" CdmEntityContainer="DtlK22CNT4Lesson11DbEntities">
+          <EntitySetMapping Name="DtlCategories">
+            <EntityTypeMapping TypeName="DtlK22CNT4Lesson11DbModel.DtlCategory">
+              <MappingFragment StoreEntitySet="DtlCategory">
+                <ScalarProperty Name="DtlId" ColumnName="DtlId" />
+                <ScalarProperty Name="DtlCateName" ColumnName="DtlCateName" />
+                <ScalarProperty Name="DtlStatus" ColumnName="DtlStatus" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DtlProducts">
+            <EntityTypeMapping TypeName="DtlK22CNT4Lesson11DbModel.DtlProduct">
+              <MappingFragment StoreEntitySet="DtlProduct">
+                <ScalarProperty Name="DtlId2210900038" ColumnName="DtlId2210900038" />
+                <ScalarProperty Name="DtlProName" ColumnName="DtlProName" />
+                <ScalarProperty Name="DtlQty" ColumnName="DtlQty" />
+                <ScalarProperty Name="DtlPrice" ColumnName="DtlPrice" />
+                <ScalarProperty Name="DtlCateId" ColumnName="DtlCateId" />
+                <ScalarProperty Name="DtlActive" ColumnName="DtlActive" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

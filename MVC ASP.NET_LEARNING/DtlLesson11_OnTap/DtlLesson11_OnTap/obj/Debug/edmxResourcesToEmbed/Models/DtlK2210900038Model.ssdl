@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DtlK22CNT4Lesson11DbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="DtlCategory">
+    <Key>
+      <PropertyRef Name="DtlId" />
+    </Key>
+    <Property Name="DtlId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DtlCateName" Type="nvarchar" MaxLength="50" />
+    <Property Name="DtlStatus" Type="bit" />
+  </EntityType>
+  <EntityType Name="DtlProduct">
+    <Key>
+      <PropertyRef Name="DtlId2210900038" />
+    </Key>
+    <Property Name="DtlId2210900038" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="DtlProName" Type="nvarchar" MaxLength="50" />
+    <Property Name="DtlQty" Type="int" />
+    <Property Name="DtlPrice" Type="float" />
+    <Property Name="DtlCateId" Type="int" />
+    <Property Name="DtlActive" Type="bit" />
+  </EntityType>
+  <Association Name="FK_DtlProduct_DtlCategory">
+    <End Role="DtlCategory" Type="Self.DtlCategory" Multiplicity="0..1" />
+    <End Role="DtlProduct" Type="Self.DtlProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DtlCategory">
+        <PropertyRef Name="DtlId" />
+      </Principal>
+      <Dependent Role="DtlProduct">
+        <PropertyRef Name="DtlCateId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DtlK22CNT4Lesson11DbModelStoreContainer">
+    <EntitySet Name="DtlCategory" EntityType="Self.DtlCategory" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DtlProduct" EntityType="Self.DtlProduct" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_DtlProduct_DtlCategory" Association="Self.FK_DtlProduct_DtlCategory">
+      <End Role="DtlCategory" EntitySet="DtlCategory" />
+      <End Role="DtlProduct" EntitySet="DtlProduct" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

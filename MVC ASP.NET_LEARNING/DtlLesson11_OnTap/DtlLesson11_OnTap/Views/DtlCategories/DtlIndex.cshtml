@@ -1,0 +1,50 @@
+﻿@model IEnumerable<DtlLesson11_OnTap.Models.DtlCategory>
+
+@{
+    ViewBag.Title = "Danh mục sản phẩm";
+}
+
+<h2>Danh mục sản phẩm</h2>
+
+<p>
+    @*Html.ActionLink("Create New", "Create")*@
+</p>
+<a href="/DtlCategories/Create" class="btn btn-success my-3">Create new</a>
+<table class="table table-bordered">
+    <tr>
+        <th> @Html.DisplayNameFor(model => model.DtlId)</th>
+        <th>
+            @Html.DisplayNameFor(model => model.DtlCateName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DtlStatus)
+        </th>
+        <th>Chức năng</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td> @Html.DisplayFor(modelItem => item.DtlId)</td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DtlCateName)
+            </td>
+            <td>
+                @if (item.DtlStatus == true)
+                {
+                    <p style="color: greenyellow">Hoạt động</p>
+                }
+                else
+                {
+                    <p style="color: crimson">Không hoạt động</p>
+                }
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.DtlId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.DtlId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.DtlId })
+            </td>
+        </tr>
+    }
+
+</table>
