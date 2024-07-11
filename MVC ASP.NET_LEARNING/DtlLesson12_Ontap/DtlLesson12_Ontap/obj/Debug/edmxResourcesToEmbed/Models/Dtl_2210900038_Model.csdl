@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DinhTienLuc_2210900038Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="DTL_SACH">
+    <Key>
+      <PropertyRef Name="Dtl_MaSach" />
+    </Key>
+    <Property Name="Dtl_MaSach" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Dtl_TenSach" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Dtl_SoTrang" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="Dtl_NamXB" Type="DateTime" Precision="0" />
+    <Property Name="Dtl_MaTG" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Dtl_TrangThai" Type="Boolean" />
+    <NavigationProperty Name="DTL_TACGIA" Relationship="Self.FK_DTL_SACH_DTL_TACGIA" FromRole="DTL_SACH" ToRole="DTL_TACGIA" />
+  </EntityType>
+  <EntityType Name="DTL_TACGIA">
+    <Key>
+      <PropertyRef Name="Dtl_MaTG" />
+    </Key>
+    <Property Name="Dtl_MaTG" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Dtl_TenTG" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="DTL_SACH" Relationship="Self.FK_DTL_SACH_DTL_TACGIA" FromRole="DTL_TACGIA" ToRole="DTL_SACH" />
+  </EntityType>
+  <Association Name="FK_DTL_SACH_DTL_TACGIA">
+    <End Role="DTL_TACGIA" Type="Self.DTL_TACGIA" Multiplicity="0..1" />
+    <End Role="DTL_SACH" Type="Self.DTL_SACH" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DTL_TACGIA">
+        <PropertyRef Name="Dtl_MaTG" />
+      </Principal>
+      <Dependent Role="DTL_SACH">
+        <PropertyRef Name="Dtl_MaTG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DinhTienLuc_2210900038Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DTL_SACH" EntityType="Self.DTL_SACH" />
+    <EntitySet Name="DTL_TACGIA" EntityType="Self.DTL_TACGIA" />
+    <AssociationSet Name="FK_DTL_SACH_DTL_TACGIA" Association="Self.FK_DTL_SACH_DTL_TACGIA">
+      <End Role="DTL_TACGIA" EntitySet="DTL_TACGIA" />
+      <End Role="DTL_SACH" EntitySet="DTL_SACH" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

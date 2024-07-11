@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DinhTienLuc_2210900038ModelStoreContainer" CdmEntityContainer="DinhTienLuc_2210900038Entities">
+    <EntitySetMapping Name="DTL_SACH">
+      <EntityTypeMapping TypeName="DinhTienLuc_2210900038Model.DTL_SACH">
+        <MappingFragment StoreEntitySet="DTL_SACH">
+          <ScalarProperty Name="Dtl_MaSach" ColumnName="Dtl_MaSach" />
+          <ScalarProperty Name="Dtl_TenSach" ColumnName="Dtl_TenSach" />
+          <ScalarProperty Name="Dtl_SoTrang" ColumnName="Dtl_SoTrang" />
+          <ScalarProperty Name="Dtl_NamXB" ColumnName="Dtl_NamXB" />
+          <ScalarProperty Name="Dtl_MaTG" ColumnName="Dtl_MaTG" />
+          <ScalarProperty Name="Dtl_TrangThai" ColumnName="Dtl_TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DTL_TACGIA">
+      <EntityTypeMapping TypeName="DinhTienLuc_2210900038Model.DTL_TACGIA">
+        <MappingFragment StoreEntitySet="DTL_TACGIA">
+          <ScalarProperty Name="Dtl_MaTG" ColumnName="Dtl_MaTG" />
+          <ScalarProperty Name="Dtl_TenTG" ColumnName="Dtl_TenTG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,35 @@
+﻿@model DtlLesson12_Ontap.Models.DTL_TACGIA
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>DTL_TACGIA</h4>
+    <hr />
+    <dl class="dl-horizontal border">
+        <dt>
+            @Html.DisplayNameFor(model => model.Dtl_MaTG):
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dtl_MaTG)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dtl_TenTG):
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dtl_TenTG)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Dtl_MaTG.Trim() }, new { @class = "btn btn-primary" })
+    |
+    @Html.ActionLink("Back to List", "DtlIndex", null, new { @class = "btn btn-primary" })
+</p>

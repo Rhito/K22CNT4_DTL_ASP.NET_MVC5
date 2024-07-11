@@ -1,0 +1,64 @@
+﻿@model DtlLesson12_Ontap.Models.DTL_SACH
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>DTL_SACH</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Dtl_TenSach)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dtl_TenSach)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dtl_SoTrang)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dtl_SoTrang)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dtl_NamXB)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dtl_NamXB)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dtl_TrangThai)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dtl_TrangThai)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DTL_TACGIA.Dtl_TenTG)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DTL_TACGIA.Dtl_TenTG)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "DtlIndex",null, new {@class="btn btn-primary my-2"})
+        </div>
+    }
+</div>

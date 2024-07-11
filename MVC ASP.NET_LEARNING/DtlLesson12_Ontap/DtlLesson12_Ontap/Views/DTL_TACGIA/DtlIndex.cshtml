@@ -1,0 +1,39 @@
+﻿@model IEnumerable<DtlLesson12_Ontap.Models.DTL_TACGIA>
+
+@{
+    ViewBag.Title = "Danh Sách Tác Giả";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "DtlCreate", null, new { @class = "btn btn-primary" })
+</p>
+<table class="table table-bordered">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Dtl_MaTG)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dtl_TenTG)
+        </th>
+        <th>Chức năng</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dtl_MaTG)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dtl_TenTG)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "DtlEdit", new { id=item.Dtl_MaTG.Trim() }) |
+            @Html.ActionLink("Details", "DtlDetails", new { id=item.Dtl_MaTG.Trim() }) |
+            @Html.ActionLink("Delete", "DtlDelete", new { id=item.Dtl_MaTG.Trim() })
+        </td>
+    </tr>
+}
+
+</table>

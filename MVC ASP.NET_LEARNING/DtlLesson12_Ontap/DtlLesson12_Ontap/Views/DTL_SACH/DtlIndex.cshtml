@@ -1,0 +1,63 @@
+﻿@model IEnumerable<DtlLesson12_Ontap.Models.DTL_SACH>
+
+@{
+    ViewBag.Title = "Danh sách các sách";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "DtlCreate",null, new { @class = "btn btn-primary my-2" })
+</p>
+<table class="table table-bordered">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Dtl_TenSach)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dtl_SoTrang)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dtl_NamXB)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dtl_TrangThai)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DTL_TACGIA.Dtl_TenTG)
+        </th>
+        <th>Chức năng</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dtl_TenSach)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dtl_SoTrang )
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dtl_NamXB)
+        </td>
+        <td>
+            @*@Html.DisplayFor(modelItem => item.Dtl_TrangThai)*@
+            @if (item.Dtl_TrangThai == true)
+            {<p>Tiếp tục lưu hành</p>}
+            else
+            {
+                <p>Ngừng lưu hành</p>
+            }
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DTL_TACGIA.Dtl_TenTG)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "DtlEdit", new { id=item.Dtl_MaSach.Trim() }, new { @class = "btn btn-primary my-2" }) |
+            @Html.ActionLink("Details", "DtlDetails", new { id=item.Dtl_MaSach.Trim() },new { @class = "btn btn-primary my-2" }) |
+            @Html.ActionLink("Delete", "DtlDelete", new { id=item.Dtl_MaSach.Trim() },new { @class = "btn btn-primary my-2" })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DinhTienLuc_2210900038Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="DTL_SACH">
+    <Key>
+      <PropertyRef Name="Dtl_MaSach" />
+    </Key>
+    <Property Name="Dtl_MaSach" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Dtl_TenSach" Type="nvarchar" MaxLength="50" />
+    <Property Name="Dtl_SoTrang" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="Dtl_NamXB" Type="date" />
+    <Property Name="Dtl_MaTG" Type="nchar" MaxLength="10" />
+    <Property Name="Dtl_TrangThai" Type="bit" />
+  </EntityType>
+  <EntityType Name="DTL_TACGIA">
+    <Key>
+      <PropertyRef Name="Dtl_MaTG" />
+    </Key>
+    <Property Name="Dtl_MaTG" Type="nchar" MaxLength="10" Nullable="false" />
+    <Property Name="Dtl_TenTG" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK_DTL_SACH_DTL_TACGIA">
+    <End Role="DTL_TACGIA" Type="Self.DTL_TACGIA" Multiplicity="0..1" />
+    <End Role="DTL_SACH" Type="Self.DTL_SACH" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DTL_TACGIA">
+        <PropertyRef Name="Dtl_MaTG" />
+      </Principal>
+      <Dependent Role="DTL_SACH">
+        <PropertyRef Name="Dtl_MaTG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DinhTienLuc_2210900038ModelStoreContainer">
+    <EntitySet Name="DTL_SACH" EntityType="Self.DTL_SACH" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DTL_TACGIA" EntityType="Self.DTL_TACGIA" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_DTL_SACH_DTL_TACGIA" Association="Self.FK_DTL_SACH_DTL_TACGIA">
+      <End Role="DTL_TACGIA" EntitySet="DTL_TACGIA" />
+      <End Role="DTL_SACH" EntitySet="DTL_SACH" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
